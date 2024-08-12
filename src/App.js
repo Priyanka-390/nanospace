@@ -5,10 +5,10 @@ import Explore from './components/Explore';
 
 function App() {
   return (
-    <>
+    <div className='bg-light-black'>
     <Hero />
       <Explore />
-      </>
+      </div>
   );
 }
 

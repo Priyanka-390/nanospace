@@ -7,7 +7,7 @@ import { EXPLORE_DATA_LISTS } from "../utils/helper";
 
 const Explore = () => {
   return (
-    <div className="bg-light-black z-10 overflow-hidden lg:h-[826px] relative">
+    <div className="bg-light-black 2xl:max-w-[1920px] 2xl:mx-auto z-10 overflow-hidden lg:h-[826px] relative">
       <div className="absolute lg:block hidden top-0  left-0">
         <div className="relative">
           <div className="w-[333px] h-[305px] blur-[230px] absolute bg-light-blue top-[20%] left-0 -z-10"></div>
@@ -19,12 +19,12 @@ const Explore = () => {
           />
         </div>
       </div>
-      <div className="container z-10 max-w-[1140px] mx-auto">
+      <div className="container  z-10 max-w-[1140px] mx-auto">
         <div className="max-lg:grid lg:grid-cols-2">
           <div className="md:col-span-1  lg:hidden flex justify-center">
             <div className="lg:hidden block">
               <div className="relative">
-                <div className="lg:w-[333px] size-44 lg:h-[305px] blur-[230px] absolute bg-light-blue top-[20%] left-0 -z-10"></div>
+                <div className="lg:w-[333px] size-44 lg:h-[305px] blur-[230px] absolute bg-light-blue top-[30%] left-0 -z-10"></div>
                 <img
                   src={explore}
                   alt="explore"
@@ -34,7 +34,7 @@ const Explore = () => {
               </div>
             </div>
           </div>
-          <div className="flex md:col-span-1 lg:justify-end justify-center relative lg:pt-44 pt-10 md:pt-20">
+          <div className="flex md:col-span-1 lg:justify-end justify-center relative lg:pt-44 sm:pt-10 pt-5 md:pt-20">
             <img
               src={exploreVector}
               alt="vector"
