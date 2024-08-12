@@ -11,7 +11,7 @@ const Explore = () => {
       <div className="bg-explore-gradient md:h-[130px] sm:h-36 h-20 w-full absolute z-20 -mb-1"></div>
       <div className="absolute lg:block hidden top-0 left-0">
         <div className="relative">
-          <div className="w-[190px] h-[695px] blur-[200px] absolute bg-light-sky top-[10%] left-[20%] -z-10"></div>
+          <div className="w-[160px] h-[695px] blur-[190px] absolute bg-light-sky top-[10%] left-[20%] -z-10"></div>
           <img
             src={explore}
             alt="explore"

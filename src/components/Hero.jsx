@@ -23,7 +23,7 @@ const Hero = () => {
                 src={data.image}
                 width={118}
                 height={35}
-                className="max-sm:w-24"
+                className="max-sm:w-24 hover:scale-110 duration-300"
                 alt="icons"
               />
             </a>
