@@ -21,15 +21,15 @@ const NavBar = () => {
             <img src={navLogo} width={154} className="max-sm:w-28" height={48} alt="logo" />
           </a>
           <ul
-            className={`flex xl:gap-8 gap-4 items-center mobileView ${
-              show ? "right-[100%] " : "right-0 min-h-screen"
+            className={`flex  max-lg:gap-4 items-center mobileView ${
+              show ? "right-[100%] " : "right-0 max-lg:min-h-screen"
             }`}
           >
             {NAV_LINK_LIST.map((data, i) => (
               <li key={i}>
-                <a
+                <a onClick={showNav}
                   href={data.url}
-                  className="font-saira px-4 py-7 lg:hover:bg-light-grey duration-300 font-normal text-base text-white leading-157"
+                  className="font-saira px-4 py-7  after:bg-light-grey after:top-0 after:bottom-[200%] hover:after:bottom-0 after:w-full after:right-0 after:left-0 z-10 after:-z-10 after:duration-300 after:absolute relative duration-300 font-normal text-base text-white leading-157"
                 >
                   {data.title}
                 </a>

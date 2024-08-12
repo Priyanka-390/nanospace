@@ -7,11 +7,11 @@ import { EXPLORE_DATA_LISTS } from "../utils/helper";
 
 const Explore = () => {
   return (
-      <div className="bg-light-black 2xl:max-w-[1920px] z-10 after:absolute after:left-0 after:right-0 after:bg-explore-gradient -after:top-1 2xl:mx-auto overflow-y-clip lg:h-[826px] relative">
-         
+    <div id="about" className="bg-light-black 2xl:max-w-[1920px] z-0  2xl:mx-auto overflow-hidden lg:h-[826px] relative">
+      <div className="bg-explore-gradient md:h-[130px] sm:h-36 h-20 w-full absolute z-20 -mb-1"></div>
       <div className="absolute lg:block hidden top-0 left-0">
         <div className="relative">
-          <div className="w-[333px] h-[305px] blur-[230px] absolute bg-light-blue top-[20%] left-0 -z-10"></div>
+          <div className="w-[190px] h-[695px] blur-[200px] absolute bg-light-sky top-[10%] left-[20%] -z-10"></div>
           <img
             src={explore}
             alt="explore"
@@ -22,7 +22,7 @@ const Explore = () => {
       </div>
       <div className="container z-10 max-w-[1140px] mx-auto">
         <div className="max-lg:grid lg:grid-cols-2">
-          <div className="md:col-span-1  lg:hidden flex justify-center">
+          <div className="md:col-span-1 lg:hidden flex justify-center">
             <div className="lg:hidden block">
               <div className="relative">
                 <div className="lg:w-[333px] size-44 lg:h-[305px] blur-[230px] absolute bg-light-blue top-[40%] left-0 -z-10"></div>
@@ -35,14 +35,21 @@ const Explore = () => {
               </div>
             </div>
           </div>
-          <div className="flex md:col-span-1 lg:justify-end justify-center relative lg:pt-44 sm:pt-10 pt-5 md:pt-20">
+          <div className="flex md:col-span-1 lg:justify-end justify-center relative lg:pt-44 max-sm:-translate-y-24 max-lg:-translate-y-32">
             <img
               src={exploreVector}
               alt="vector"
-              className="absolute lg:top-[7%] z-10 md:block hidden top-[-2%] right-[-2%] lg:right-[-7%]"
+              className="absolute lg:top-[7%] z-10 md:block lg:-right-[2%] hidden top-[-37%] right-[2%] xl:right-[-7%]"
             />
-            <div className="bg-white xl:w-[672px] xl:h-[462px] bg-opacity-[4%] backdrop-blur-[10px] xl:p-12 p-6 md:p-9">
-              <img src={exploreLogo} alt="logo" />
+            <div className="bg-white xl:w-[672px] rounded-[10px] xl:h-[462px] bg-opacity-[4%] backdrop-blur-[10px] xl:p-12 sm:p-6 p-4 md:p-9">
+              <div className="relative">
+                <img
+                  src={exploreLogo}
+                  className="max-sm:w-[180px]"
+                  alt="logo"
+                />
+                <div className="w-[156px] absolute top-1/2 right-1/2 -translate-x-1/2 bg-light-white blur-[80px] h-[54px]"></div>
+              </div>
               <h2 className="text-white leading-120 md:mt-6 mt-3 xl:text-custom-4xl md:text-4xl sm:text-3xl text-2xl font-orbitron font-bold">
                 Explore NANOSPACE
               </h2>

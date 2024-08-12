@@ -8,7 +8,7 @@ export const NAV_LINK_LIST = [
         url:HOME_LINK_PATH
     },
     {
-        title: "about",
+        title: "About",
         url:ABOUT_LINK_PATH
     },
     {
