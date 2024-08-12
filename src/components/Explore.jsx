@@ -7,7 +7,8 @@ import { EXPLORE_DATA_LISTS } from "../utils/helper";
 
 const Explore = () => {
   return (
-    <div className="bg-light-black 2xl:max-w-[1920px] 2xl:mx-auto overflow-y-clip lg:h-[826px] relative">
+      <div className="bg-light-black 2xl:max-w-[1920px] after:absolute after:left-0 after:right-0 after:bg-explore-gradient -after:top-1 2xl:mx-auto z-10 overflow-y-clip lg:h-[826px] relative">
+         
       <div className="absolute lg:block hidden top-0  left-0">
         <div className="relative">
           <div className="w-[333px] h-[305px] blur-[230px] absolute bg-light-blue top-[20%] left-0 -z-10"></div>
@@ -19,7 +20,7 @@ const Explore = () => {
           />
         </div>
       </div>
-      <div className="container  z-10 max-w-[1140px] mx-auto">
+      <div className="container z-10 max-w-[1140px] mx-auto">
         <div className="max-lg:grid lg:grid-cols-2">
           <div className="md:col-span-1  lg:hidden flex justify-center">
             <div className="lg:hidden block">

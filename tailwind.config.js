@@ -18,7 +18,9 @@ module.exports = {
         "light-white":"#CCCCCC"
       },
       backgroundImage: {
-        "hero":"url(./assets/images/webp/hero-bg.webp)",
+        "hero": "url(./assets/images/webp/hero-bg.webp)",
+       "explore-gradient" :"linear-gradient(180deg, rgba(17, 17, 17, 0) 7.35%, #111111 75.74%)"
+
       },
       container: {
         center: true,

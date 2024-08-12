@@ -5,7 +5,7 @@ import Explore from "./components/Explore";
 
 function App() {
   return (
-    <div className="bg-light-black">
+    <div className="bg-light-black overflow-hidden">
       <Hero />
       <Explore />
     </div>
