@@ -11,7 +11,7 @@ const Explore = () => {
       <div className="bg-explore-gradient md:h-[130px] sm:h-36 h-20 w-full absolute z-20 -mb-1"></div>
       <div className="absolute lg:block hidden top-0 left-0">
         <div className="relative">
-          <div className="w-[160px] h-[695px] blur-[190px] absolute bg-light-sky top-[10%] left-[20%] -z-10"></div>
+          <div className="w-[160px] h-[695px] blur-[190px] pointer-events-none absolute bg-light-sky top-[10%] left-[20%] -z-10"></div>
           <img
             src={explore}
             alt="explore"
@@ -25,7 +25,7 @@ const Explore = () => {
           <div className="md:col-span-1 lg:hidden flex justify-center">
             <div className="lg:hidden block">
               <div className="relative">
-                <div className="lg:w-[333px] size-44 lg:h-[305px] blur-[230px] absolute bg-light-blue top-[40%] left-0 -z-10"></div>
+                <div className="lg:w-[333px] pointer-events-none size-44 lg:h-[305px] blur-[230px] absolute bg-light-blue top-[40%] left-0 -z-10"></div>
                 <img
                   src={explore}
                   alt="explore"
@@ -39,7 +39,7 @@ const Explore = () => {
             <img
               src={exploreVector}
               alt="vector"
-              className="absolute lg:top-[7%] z-10 md:block lg:-right-[2%] hidden top-[-37%] right-[2%] xl:right-[-7%]"
+              className="absolute pointer-events-none lg:top-[7%] z-10 md:block lg:-right-[2%] hidden top-[-37%] right-[2%] xl:right-[-7%]"
             />
             <div className="bg-white xl:w-[672px] rounded-[10px] xl:h-[462px] bg-opacity-[4%] backdrop-blur-[10px] xl:p-12 sm:p-6 p-4 md:p-9">
               <div className="relative">
@@ -48,7 +48,7 @@ const Explore = () => {
                   className="max-sm:w-[180px]"
                   alt="logo"
                 />
-                <div className="w-[156px] absolute top-1/2 right-1/2 -translate-x-1/2 bg-light-white blur-[80px] h-[54px]"></div>
+                <div className="w-[156px] pointer-events-none absolute top-1/2 right-1/2 -translate-x-1/2 bg-light-white blur-[80px] h-[54px]"></div>
               </div>
               <h2 className="text-white leading-120 md:mt-6 mt-3 xl:text-custom-4xl md:text-4xl sm:text-3xl text-2xl font-orbitron font-bold">
                 Explore NANOSPACE
