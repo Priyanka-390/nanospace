@@ -40,6 +40,6 @@ export const HERO_SOCIAL_ICONS_LIST = [
     },
 ]
 
-export const EXPLORE_DATA_LISTS = [
+export const EXPLORE_DATA_LIST = [
     "Play with your own cute & adorable girls whose in charge of saving NANOSPACE world.","Characters are fully customizable with various costumes, attractive gears and powerful weapons."
 ]

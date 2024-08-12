@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "orbitron": ["Orbitron\Bold", "sans-serif"],
+        "orbitron": ["Orbitron", "sans-serif"],
         "saira":["Saira", "sans-serif"],
       },
       colors: {

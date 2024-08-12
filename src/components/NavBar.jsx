@@ -15,7 +15,7 @@ const NavBar = () => {
      }
   return (
     <div className="shadow-nav relative z-50 bg-white bg-opacity-[6%] backdrop-blur-[20px] md:py-4 py-3">
-      <div className="max-w-[1280px] conatiner mx-auto px-3">
+      <div className="max-w-[1280px] conatiner mx-auto xl:px-0 px-4">
         <div className="flex items-center justify-between">
           <a href="#">
             <img src={navLogo} width={154} className="max-sm:w-28" height={48} alt="logo" />

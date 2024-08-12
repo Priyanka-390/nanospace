@@ -1,14 +1,13 @@
 import explore from "../assets/images/webp/explore.webp"
-import exploreEllipse from "../assets/images/svg/explore-ellipse.svg"
 import exploreVector from "../assets/images/svg/explore-vector.svg"
 import exploreLogo from "../assets/images/svg/explore-logo.svg"
 import Para from "./common/Para";
-import { EXPLORE_DATA_LISTS } from "../utils/helper";
+import { EXPLORE_DATA_LIST} from "../utils/helper";
 
 const Explore = () => {
   return (
-    <div id="about" className="bg-light-black 2xl:max-w-[1920px] z-0  2xl:mx-auto overflow-hidden lg:h-[826px] relative">
-      <div className="bg-explore-gradient md:h-[130px] sm:h-36 h-20 w-full absolute z-20 -mb-1"></div>
+    <div id="about" className="bg-light-black 2xl:max-w-[1920px] z-0 2xl:mx-auto overflow-hidden lg:h-[826px] relative">
+      <div className="bg-explore-gradient md:h-[130px] xl:h-[230px] sm:h-36 h-20 w-full absolute z-20 -mt-1"></div>
       <div className="absolute lg:block hidden top-0 left-0">
         <div className="relative">
           <div className="w-[160px] h-[695px] blur-[190px] pointer-events-none absolute bg-light-sky top-[10%] left-[20%] -z-10"></div>
@@ -62,7 +61,7 @@ const Explore = () => {
                 title="Adorable, Collectible Anime-Inspired Character"
               />
               <div>
-                {EXPLORE_DATA_LISTS.map((data, i) => (
+                {EXPLORE_DATA_LIST.map((data, i) => (
                   <div className="flex gap-2.5 md:mt-3.5 mt-2">
                     <div className="bg-dark-grey mt-1.5 size-4 p-[2.5px] rounded-full">
                       {" "}
