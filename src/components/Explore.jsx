@@ -7,9 +7,9 @@ import { EXPLORE_DATA_LISTS } from "../utils/helper";
 
 const Explore = () => {
   return (
-      <div className="bg-light-black 2xl:max-w-[1920px] after:absolute after:left-0 after:right-0 after:bg-explore-gradient -after:top-1 2xl:mx-auto z-10 overflow-y-clip lg:h-[826px] relative">
+      <div className="bg-light-black 2xl:max-w-[1920px] z-10 after:absolute after:left-0 after:right-0 after:bg-explore-gradient -after:top-1 2xl:mx-auto overflow-y-clip lg:h-[826px] relative">
          
-      <div className="absolute lg:block hidden top-0  left-0">
+      <div className="absolute lg:block hidden top-0 left-0">
         <div className="relative">
           <div className="w-[333px] h-[305px] blur-[230px] absolute bg-light-blue top-[20%] left-0 -z-10"></div>
           <img
@@ -41,13 +41,13 @@ const Explore = () => {
               alt="vector"
               className="absolute lg:top-[7%] z-10 md:block hidden top-[-2%] right-[-2%] lg:right-[-7%]"
             />
-            <div className="bg-white xl:w-[672px] xl:h-[462px] bg-opacity-[4%] backdrop-blur-[10px] xl:p-12 p-9">
+            <div className="bg-white xl:w-[672px] xl:h-[462px] bg-opacity-[4%] backdrop-blur-[10px] xl:p-12 p-6 md:p-9">
               <img src={exploreLogo} alt="logo" />
-              <h2 className="text-white leading-120 mt-6 xl:text-custom-4xl md:text-4xl sm:text-3xl text-2xl font-orbitron font-bold">
+              <h2 className="text-white leading-120 md:mt-6 mt-3 xl:text-custom-4xl md:text-4xl sm:text-3xl text-2xl font-orbitron font-bold">
                 Explore NANOSPACE
               </h2>
               <Para
-                className="mt-4"
+                className="md:mt-4 mt-2"
                 title="Find best in class heart-pounding idle RPG experience"
               />
               <Para
@@ -56,7 +56,7 @@ const Explore = () => {
               />
               <div>
                 {EXPLORE_DATA_LISTS.map((data, i) => (
-                  <div className="flex gap-2.5 mt-3.5">
+                  <div className="flex gap-2.5 md:mt-3.5 mt-2">
                     <div className="bg-dark-grey mt-1.5 size-4 p-[2.5px] rounded-full">
                       {" "}
                       <div className="size-[11px] rounded-full bg-light-white"></div>

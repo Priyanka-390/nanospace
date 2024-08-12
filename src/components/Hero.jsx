@@ -5,7 +5,8 @@ import { HERO_SOCIAL_ICONS_LIST } from '../utils/helper';
 
 const Hero = () => {
   return (
-    <div className="bg-hero lg:h-[810px] bg-no-repeat bg-cover lg:bg-full">
+      <div className="bg-hero relative lg:h-[810px] z-10 bg-no-repeat bg-cover lg:bg-full">
+          <div className='bg-hero-gradient absolute z-20 bottom-[-10%] left-0 right-0'></div>
       <NavBar />
       <div className="max-lg:py-28 max-sm:py-24">
         <h1 className="leading-120 lg:mt-44 xl:text-custom-6xl lg:text-6xl md:text-5xl text-4xl pt-1.5 text-center md:mb-4 mb-3 font-orbitron font-bold text-white max-w-[801px] mx-auto">

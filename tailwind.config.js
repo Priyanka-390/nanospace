@@ -10,7 +10,7 @@ module.exports = {
         "saira":["Saira", "sans-serif"],
       },
       colors: {
-        "light-grey": "#D9D9D9",
+        "light-grey": "#887F7C",
         "sky-blue": "#5893FF",
         "light-blue":"#2253F5",
         "light-black": "#111111",
@@ -19,7 +19,9 @@ module.exports = {
       },
       backgroundImage: {
         "hero": "url(./assets/images/webp/hero-bg.webp)",
-       "explore-gradient" :"linear-gradient(180deg, rgba(17, 17, 17, 0) 7.35%, #111111 75.74%)"
+        "explore-gradient": "linear-gradient(180deg, rgba(17, 17, 17, 0) 7.35%, #111111 75.74%)",
+         "hero-gradient": "linear-gradient(180deg, rgba(7, 11, 27, 0) 7.35%, #111111 75.74%)"
+
 
       },
       container: {
