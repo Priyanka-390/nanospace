@@ -7,7 +7,7 @@ import { EXPLORE_DATA_LISTS } from "../utils/helper";
 
 const Explore = () => {
   return (
-    <div className="bg-light-black 2xl:max-w-[1920px] 2xl:mx-auto z-10 overflow-hidden lg:h-[826px] relative">
+    <div className="bg-light-black 2xl:max-w-[1920px] 2xl:mx-auto overflow-y-clip lg:h-[826px] relative">
       <div className="absolute lg:block hidden top-0  left-0">
         <div className="relative">
           <div className="w-[333px] h-[305px] blur-[230px] absolute bg-light-blue top-[20%] left-0 -z-10"></div>
@@ -24,7 +24,7 @@ const Explore = () => {
           <div className="md:col-span-1  lg:hidden flex justify-center">
             <div className="lg:hidden block">
               <div className="relative">
-                <div className="lg:w-[333px] size-44 lg:h-[305px] blur-[230px] absolute bg-light-blue top-[30%] left-0 -z-10"></div>
+                <div className="lg:w-[333px] size-44 lg:h-[305px] blur-[230px] absolute bg-light-blue top-[40%] left-0 -z-10"></div>
                 <img
                   src={explore}
                   alt="explore"
@@ -42,7 +42,7 @@ const Explore = () => {
             />
             <div className="bg-white xl:w-[672px] xl:h-[462px] bg-opacity-[4%] backdrop-blur-[10px] xl:p-12 p-9">
               <img src={exploreLogo} alt="logo" />
-              <h2 className="text-white leading-120 mt-6 xl:text-custom-4xl md:text-4xl text-3xl font-orbitron font-bold">
+              <h2 className="text-white leading-120 mt-6 xl:text-custom-4xl md:text-4xl sm:text-3xl text-2xl font-orbitron font-bold">
                 Explore NANOSPACE
               </h2>
               <Para
