@@ -29,13 +29,13 @@ const NavBar = () => {
               <li key={i}>
                 <a onClick={showNav}
                   href={data.url}
-                  className="font-saira px-4 py-7  after:bg-light-grey after:top-0 after:bottom-[200%] hover:after:bottom-0 after:w-full after:right-0 after:left-0 z-10 after:-z-10 after:duration-300 after:absolute relative duration-300 font-normal text-base text-white leading-157"
+                  className="font-saira px-4 py-7 after:bg-light-grey max-lg:after:hidden after:top-0 after:bottom-[200%] hover:after:bottom-0 after:w-full after:right-0 after:left-0 z-10 after:-z-10 after:duration-300 after:absolute relative duration-300 font-normal text-base text-white leading-157"
                 >
                   {data.title}
                 </a>
               </li>
             ))}
-            <li>
+            <li onClick={showNav}>
               <PrimaryButton
                 className="max-sm:flex hidden"
                 children="Find More"
@@ -43,7 +43,7 @@ const NavBar = () => {
             </li>
           </ul>
           <div className="flex gap-6 items-center">
-            <PrimaryButton
+            <PrimaryButton onClick={showNav}
               className="max-sm:hidden block"
               children="Find More"
             />

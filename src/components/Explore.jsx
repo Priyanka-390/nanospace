@@ -28,7 +28,7 @@ const Explore = () => {
                 <img
                   src={explore}
                   alt="explore"
-                  className="max-xl:w-[600px]"
+                  className="max-lg:w-[500px]"
                   width={880}
                 />
               </div>
