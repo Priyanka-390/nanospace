@@ -2,3 +2,6 @@
 *{
   scroll-behavior: smooth;
 }
+.orange-gradient{
+  background:linear-gradient(180deg, #FCF5DC 11.86%, #FCF5DD 100%);
+}
